@@ -5,3 +5,8 @@ function openVideo() {
 function openYouTubeVideo() {
   window.open('https://www.youtube.com/watch?v=3ry3i9CboYI&list=PLH5bXQyd-w4pg61SMPobYtD7kf68anZui', '_blank');
 }
+
+function playAudio() {
+  var audio = document.getElementById("audio");
+  audio.play();
+}
