@@ -5,26 +5,57 @@ body {
   padding: 0;
 }
 
-.container {
-  text-align: center;
-  padding: 20px;
+.bullet-item {
+  font-size: 30px;
+  align-items: left;
+  padding-left: 100px;
 }
 
-.row {
+.bullet-list-container {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  align-items:center;
+  width: 675px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.button-row {
+.button-container1 { 
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 20px;
+  height: 75px;
 }
+
+.button-container2 { 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 75px;
+}
+
+.button-container3 { 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 75px;
+}
+
+.button-container-bottom { 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 75px;
+  margin: 0 0 200px 0;
+}
+
 
 .button {
   padding: 15px 30px;
-  font-size: 24px;
+  font-size: 18px;
   background-color: #3498db;
   color: #ffffff;
   border: none;
@@ -41,26 +72,86 @@ body {
   background-color: #2980b9;
 }
 
-.p-type1 {
-  font-size: 32px;
-  margin: 40px 0;
+button {
+  display: block;
+  width: 225px;
+  margin: 20 auto;
 }
 
-.p-type2 {
-  font-size: 24px;
-  margin: 40px 0;
+
+.hr1 {
+  background-color: green;
+  width: 40%;
+  height: 5px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.p-type3 {
+.hr2 {
+  background-color: green;
+  width: 40%;
+  height: 5px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+
+.li1{
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.p-top1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.p-top2 {
   font-size: 24px;
   text-align: left;
-  margin: 10px 0;
+  margin: 10px 150px 75px 150px;
 }
 
-.p-type4 {
+.p-top2-centered {
   font-size: 24px;
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 150px 75px 150px;
+}
+
+.p-top2-centered-bottom {
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 150px 40px 150px;
+}
+
+.p-bottom1 {
+  font-size: 24px;
+  text-align: left;
+  margin: 40px 0 10px 20px;
+}
+
+.p-bottom2 {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 0 10px 20px;
+}
+
+.p-bottom3 {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 0 10px 20px;
+}
+
+.p-bottom-bottom {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 0 40px 20px;
 }
 
 .draggable-element {
@@ -72,3 +163,8 @@ body {
   cursor: grabbing; /* Cursor appearance when dragging */
   cursor: -webkit-grabbing; /* For Safari */
 }
+
+.ul1 {
+  text-align: left;
+}
+
