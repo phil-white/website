@@ -131,13 +131,13 @@ button {
 .p-top2 {
   font-size: 24px;
   text-align: left;
-  margin: 10px 150px 50px 150px;
+  margin: 10px 150px 20px 150px;
 }
 
 .p-top2-centered {
   font-size: 24px;
   text-align: center;
-  margin: 10px 150px 50px 150px;
+  margin: 10px 150px 20px 150px;
 }
 
 .p-top2-centered-bottom {
@@ -181,7 +181,7 @@ button {
 }
 
 .top-text-centered {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
