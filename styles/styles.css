@@ -170,7 +170,10 @@ button {
 .p-bottom-bottom {
   font-size: 24px;
   text-align: left;
-  margin: 10px 0 40px 20px;
+  width: 80%;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .draggable-element {
@@ -181,6 +184,10 @@ button {
 .draggable-element:active {
   cursor: grabbing; /* Cursor appearance when dragging */
   cursor: -webkit-grabbing; /* For Safari */
+}
+
+.space35px {
+  height: 35px;
 }
 
 .space40px {
