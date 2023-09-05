@@ -13,6 +13,7 @@ body {
 
 .bullet-list-container {
   width: 40%;
+  min-width: 400px;
   margin: 0 auto;
 }
 
